@@ -1,0 +1,57 @@
+﻿#SideMenu
+{
+    labelFont : 16;
+    labelFontHL : 16 bold;
+    radarTitleFont : 17;
+    radarTitleHeight : 50;
+    radarDescriptionHeight : 33;
+}
+
+QHRootDetailViewController
+{
+    column : 3;
+    columnGap : 8 dynamic;
+    rwoGap :8 dynamic;
+}
+
+QHArticleFeedCellItem
+{
+    cellheight : 278;
+    imageViewHeight : 185;
+    largeTitleLabelFontSize:21 dynamic;
+    timeLabelFontSize:13 dynamic;
+    categoryImageViewHeight:14;
+    categoryTitleLabelLeftGap:3;
+    titleLabelFontSize:17 dynamic;
+}
+
+#QHSearchViewController {
+    hotSearchKeyBtnMarginLeft : 35 dynamic;
+}
+
+#UserCenter
+{
+    width : 620 dynamic;
+    ucTableViewMarginLeft : 70 dynamic;
+    loginContentWidth : 400 dynamic;
+}
+
+QHCommentViewController
+{
+    width : 600 dynamic;
+    height : 600;
+}
+
+QHLabFeedCell
+{
+    titleLabelGap :10;
+    titleLabelFontSize:20 dynamic;
+    detaileTitleLabelFontSize:15 dynamic;
+    titleLabelMarginBottom: 3;
+    titleLabelBottom:15 dynamic;
+}
+
+#QHHeadlineBannerLargeSubView
+{
+    titleLabelFontSize:22 dynamic;
+}

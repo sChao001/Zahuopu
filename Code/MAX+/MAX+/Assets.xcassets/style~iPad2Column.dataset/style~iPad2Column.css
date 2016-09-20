@@ -1,0 +1,77 @@
+﻿#SideMenu
+{
+    labelFont : 16;
+    labelFontHL : 16 bold;
+}
+
+QHRootDetailViewController
+{
+    column : 2;
+    columnGap : 6 dynamic;
+    rwoGap :6 dynamic;
+}
+QHArticleFeedCellItem
+{
+    cellheight : 278;
+    imageViewHeight : 185;
+    largeTitleLabelFontSize:22 dynamic;
+    timeLabelFontSize:14 dynamic;
+    categoryImageViewHeight:14;
+    categoryTitleLabelLeftGap:3;
+    titleLabelFontSize:18 dynamic;
+}
+
+QHLabFeedCell
+{
+    titleLabelGap :10;
+    titleLabelFontSize:22 dynamic;
+    detaileTitleLabelFontSize:16 dynamic;
+    titleLabelMarginBottom: 3;
+    titleLabelBottom:15 dynamic;
+}
+
+#QHHeadlineBannerLargeSubView
+{
+    titleLabelFontSize:24 dynamic;
+}
+
+#DetailToolBar
+{
+    btnInnerMargin : 20;
+}
+
+#QHSearchViewController {
+    hotSearchKeyBtnMarginLeft : 0;
+}
+
+#UserCenter
+{
+    width : 507 dynamic;
+    ucTableViewMarginLeft : 50 dynamic;
+    loginContentWidth : 400 dynamic;
+}
+
+#settingCenter
+{
+    scTableViewMarginLeft : 15 dynamic;
+    scTableViewMarginRight : 70 ;
+    scCellHeight : 58;
+    scCellTitleFont : 20;
+    
+    scFountButtonWidth : 31;
+    
+    scHeaderViewHeight : 60;
+    
+    scCellSectionZeroFooterViewHeight : 37;
+    scCellSectionOneFooterViewHeight : 100;
+}
+
+QHCommentViewController
+{
+    width : 507 dynamic;
+    height : 600;
+}
+
+#QHShareView {
+    contentWidth: 507 dynamic;
+}

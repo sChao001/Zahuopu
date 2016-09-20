@@ -1,0 +1,219 @@
+#SideMenu
+{
+    labelColorHL : rgb(226, 175, 64);
+    labelColor : rgb(106, 105, 106);
+    lineLeft : 20;
+    lineColor : #999999;
+    background-color : rgb(224, 224, 224);
+    width : 195;
+    radarViewHeight : 253;
+    cellheight : 45;
+    iconLeft : 28;
+    labelLeft : 18;
+    iconWidth : 30;
+    labelFont : 14;
+    labelFontHL : 14 bold;
+    
+    radarTitleHeight : 60;
+    radarDescriptionHeight : 45;
+    radarTitleFont : 18;
+    radarDesFont : 14;
+    radarDesLinkFont : 15 bold;
+}
+
+#UserCenter
+{
+    iOS7WindowBg : #22222222;
+    width : 620;
+    closeBtnMarginTop : 30;
+    ucHeight : 768;
+    ucTableViewMarginLeft : 70;
+    ucCellHeight : 58;
+    ucCellPaddingLeft : 23;
+    ucCellPaddingRight : 20;
+    ucCellTitleFont : 20;
+    
+    ucCellIconWidth : 40;
+    ucCellIconLabelMarginLeft : 20;
+    ucCellSwitchWidth : 57;
+    ucCellSwitchHeight : 28;
+    ucCellSwitchBallHeight : 20;
+    
+    ucCellHeaderViewHeight : 157;
+    ucCellHeaderViewAvatarMarginTop : 50;
+    ucCellHeaderViewAvatarWidth : 100;
+    ucCellHeaderViewAvatarBtnFrame : 260, 127, 25, 25;
+    
+    ucCellFootViewHeight : 65;
+    ucCellFootViewBtnHeight : 45;
+    ucCellFootViewBtnMarginLeft : 10;
+    ucCellFootViewBtnFont : 21;
+    
+    ucCellSectionFooterViewHeight : 30;
+    ucCellSectionHeaderViewHeight : 47;
+    
+    loginBgHeight : 650;
+    loginContentWidth : 400;
+    loginInputHeight : 45;
+    loginTitleFont : 26;
+    forgetPwdTitleMarginTop : 160;
+    registerStep1TitleMarginTop : 140;
+    registerStep2TitleMarginTop : 107;
+    registerStep2IconWidth : 104;
+    
+    logoTopMargin : 60;
+    logoWidth : 120;
+    logoHeight : 50;
+}
+#settingCenter
+{
+    width : 620;
+    scHeight : 768;
+    scTableViewMarginLeft : 70;
+    scTableViewMarginRight : 70;
+    
+    scCellHeight : 58;
+    scCellTitleFont : 20;
+    
+    scFountButtonWidth : 31;
+    
+    scHeaderViewHeight : 60;
+    
+    scCellSectionZeroFooterViewHeight : 37;
+    scCellSectionOneFooterViewHeight : 100;
+}
+#DetailToolBar
+{
+    toolbarHeight : 50;
+    lineColor : #999999;
+    mobBtnMarginTop : 6;
+    btnHeight : 20;
+    btnMargin : 25;
+    btnInnerMargin : 40;
+}
+
+QHCommentViewController
+{
+    width : 600;
+    height : 600;
+    
+    containViewMinMarginTop : 20;
+    
+    titleHeight : 50;
+    titleFont : 24;
+    leftBtnFont : 21;
+    leftBtnWidth : 75;
+    leftBtnColor : #343434
+    titleBg : #fafafa;
+    lineColor : #dadada;
+    
+    avatarMarginLeft : 19;
+    avatarWidth : 61;
+    userNameFont : 21;
+    userNameMarginTop : 25;
+    userNameMarginLeft : 18;
+    
+    contentMarginTop : 18;
+    contentMarginRight : 20;
+    contentFont : 20;
+    
+    imageViewWidth : 130;
+    imageViewHeight : 130;
+    imageViewMargin : 20;
+}
+
+QHRootDetailViewController
+{
+    column : 4;
+    columnGap : 12 dynamic;
+    rwoGap :12 dynamic;
+}
+QHArticleFeedCellItem
+{
+    cellheight : 225;
+    imageViewHeight : 150;
+    titleLabelGap :6;
+    titleLabelBottom :7;
+    titleLabelFontSize:22 dynamic;
+    timeLabelFontSize:17 dynamic;
+    titleLabelLineSpacing:4;
+    largeTitleLabelFontSize:27 dynamic;
+    largeTitleLabelPadding:4;
+    categoryImageViewHeight:14;
+    categoryTitleLabelLeftGap:3;
+    
+    titleLabelMarginTop : 10;
+    titleLabelMarginBottom : 15;
+    timeLabelMarginBottom: 10;
+    imageViewScale : 0.75;
+}
+QHLabFeedCell
+{
+    titleLabelBottom :15;
+    titleLabelGap :3;
+    titleLabelFontSize:27 dynamic;
+    detaileTitleLabelFontSize:20 dynamic;
+    imageViewScale : 0.57;
+    titleLabelMarginBottom: 3;
+}
+
+QHHeadlineBannerSubView
+{
+    titleLabelGap :20;
+    titleLabelFontSize:16;
+}
+
+#QHHeadlineBannerLargeSubView
+{
+    tagLabelFontSize:12;
+    titleLabelFontSize:30 dynamic;
+    titleLabelLeftGap:4;
+    titleLabelMarginBottom:24;
+    titleLabelPadding : 4;
+}
+
+#QHShareView {
+    contentWidth: 507;
+}
+
+#QHSearchViewController {
+    hotSearchKeyBtnHeight: 50;
+    hotSearchKeyBtnMarginLeft : 46;
+    hotSearchKeyMaxRow : 6;
+    hotSearchKeyBtnTextFont : 24;
+    hotSearchKeyBtnTextColor : #666666;
+    hotSearchKeyBtnTextColorHL : #ffc81f;
+    hotSearchHeadMarginLeft : 30;
+    hotSearchHeadHeight : 150;
+    hotSearchHeadMarginBottom : 21;
+    hotSearchHeadTitleDefaultFont : 28;
+    hotSearchHeadTitleTextFont : 22;
+}
+
+#SplashViewController {
+    /*  顺序是 Left Top  Right Bottom，-1表示不约束  */
+    closeBtnMargin : -1 20 10 -1;
+    closeBtnFont : 12;
+    closeBtnBg : #ffffff99;
+    closeBtnWidth : 36;
+    closeBtnTitleColor : #000000;
+    clipImage : 0;
+    /*  1表示整个屏幕都能点击，0表示不能点击，0.5表示下半屏幕可以点击  */
+    tapPercent : 0.5;
+}
+
+#QHLabFeedCountLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #ffffff;
+    NormalTextColor : #ffffff;
+    TextAlignment : Left;
+    TextFont : 21 DINCondensed-Bold;
+}
+
+#QHLabFeedAlreadyJoinStringeLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #ffffff;
+    NormalTextColor : #ffffff;
+    TextAlignment : Left;
+    TextFont : 13;
+}

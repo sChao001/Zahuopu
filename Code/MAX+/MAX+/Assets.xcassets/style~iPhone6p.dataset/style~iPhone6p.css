@@ -1,0 +1,67 @@
+﻿#Login {
+    LogoWidth: 160;
+    LogoHeight: 66;
+    LogoTopMargin: 90;
+    LogoTopLineTopMargin: 65;
+    LogoThirdParty: 310;
+    LogoInputHeight: 42;
+    LogoUserIconHeight: 124;
+    HasQdailyAccountBottonFont :14;
+}
+
+#FeedCell {
+    cellPaddingTopMargin : 20;
+    cellPaddingDefault : 20;
+}
+
+#QDNotificationRoot {
+    NavigationViewHeight :123;
+}
+
+#NewFeaturesPageTwo {
+    ElementImageTop : 35 ;
+}
+
+#NewFeatures {
+    PageOneLogoMarginTop : 156;
+    PageOneTextMarginTop : 45;
+    
+    PageControlWidth : 150;
+    PageControlHeight : 25;
+    PageControlIndicatorMargin : 20;
+    PageControlIndicatorDiameter : 20;
+}
+
+#QDNotifyCell
+{
+    QDNotifyCellGap:7;
+    TitleLabelFontSize:14;
+    UserIconLeftGap:14;
+    UserIconWidth:44;
+    HeadTitleLabelTopGap:25;
+    ReplyButtonWidth:46;
+    ReplyButtonHeight:26
+}
+
+#ArticleShareView {
+    buttonWidth : 95;
+    buttonInnerMarginV : 35;
+    cancelButtonMarginTop : 95;
+    closeButtonMarginBottom : 33;
+}
+
+#QDMenuView {
+    cellHeight : 63;
+    headButtonMarginTop : 45;
+}
+
+#UserCenterSetting {
+    UserIconBtnWidth :60;
+    settingCellHeight :49;
+    ThirdCellHeight :51;
+}
+
+#MobOptionCell {
+    contentLabelNumOfLine : 4;
+    contentLabelNumOfLineHasImage : 2;
+}

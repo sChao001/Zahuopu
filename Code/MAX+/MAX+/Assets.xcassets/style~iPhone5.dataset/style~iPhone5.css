@@ -1,0 +1,163 @@
+﻿#UserFeedRadarTitleLabel {
+    TextFont : 16 bold;
+}
+
+#UserFeedRadarDescriptionLabel {
+    TextFont : 14;
+}
+
+#QDMenuView {
+    cellHeight : 45;
+    headButtonMarginTop : 20;
+    menuHeaderHeight : 167 ;
+}
+
+#QDNotifyCell{
+    ReplyButtonHeight:10;
+}
+
+#UsersCenter {
+    indicatorCellStopOffsetY : 230;
+}
+
+#homeFeedVC {
+    BannerFeedCellHeight : 250.0;
+}
+
+#FeedCell {
+    cellEdgeMargin : 10;
+    cellPaddingBottomMargin : 7;
+    smallCellHeight : 115;
+    cellPaddingTopMargin : 10;
+    cellPaddingDefault : 10;
+    bannerPaddingLeft : 10;
+    ArticleFeedBookCellHeight : 235;
+    PostGenreDesignCellHight : 245;
+    HorizontalFeedCellCVMarginLeft : 10;
+    HorizontalFeedCellSmallHeight : 236;
+    bigCellBottomHeight : 60;
+    bigCellBottomMargin : 10;
+}
+
+#CompositeFeedCell {
+    PointLeftMargin : 15;
+    PointWidth : 7;
+    ContentLabelLeftMargin : 15;
+    ContentLabelRightMargin : 15;
+    ContentLabelTopMargin : 8;
+    ContentLabelBottomMargin : 15;
+    ReadMoreRightMargin : 10;
+    TitleViewBottomMargin : 8;
+    ReadMoreTopMargin : 20;
+    shadowViewEdge : 5;
+    shadowViewEdgeshadowRadius : 5;
+    calendarIconLeftMargin : 7;
+    calendarIconWidth : 25;
+    CalendarMonthLabelBGColor : #f0f0f0;
+    CalendarBorderColor : #cccccc;
+}
+
+
+#NewFeatures {
+    PageOneLogoMarginTop : 135;
+    PageOneLogoWidth : 40;
+    PageOneLogoHeight : 95;
+    PageControlIndicatorMargin : 15;
+    PageControlIndicatorDiameter : 15;
+}
+#NewFeaturesPageTwo {
+    ElementImageTop : 42 ;
+}
+
+#ArticleShareView {
+    buttonWidth : 80;
+    buttonMarginLeft : 30;
+    buttonMarginRight : 30;
+    buttonInnerMarginV : 35;
+    cancelButtonMarginTop : 80;
+    closeButtonMarginBottom : 33;
+}
+
+
+#UserFeedCell {
+    collectionViewHeight : 220;
+    titleMarginTop : 10;
+    collectionViewMarginBottom : 10;
+}
+
+#ColumnCollectionViewCell{
+    bestDesignCellTitleLabelMarginTop :10;
+    TheTalkNameLabelBottomMargin : 10;
+    goodPictureCellTimeLabelWidth : 10;
+    movieTitleLabelMarginTopBig : 10;
+    largeTitleLabelMarginTopBig : 10;
+}
+
+#UserCenter {
+    ResumeLabelMarginLeft :10;
+}
+
+#Regist {
+    LogoThirdPartyMarginTop :137;
+    LoginBtnMarginTop :44;
+    MailBoxMarginTop :11;
+}
+
+#Login {
+    AccountBgViewTopMargin : 37;
+    HasQdailyAccountBottonFont :12;
+}
+
+#UserCenterSetting {
+    settingCellHeight :41;
+    ThirdCellHeight :43;
+}
+
+#QDColumnFeedsHeaderCell {
+    subcriberImageViewMarginLeft : 25;
+}
+
+#ArticleFeedNormalTitleLabel {
+    TextLineNumber : 3;
+    HighlightedTextColor : rgb(42, 42, 42);
+    NormalTextColor : rgb(42, 42, 42);
+    TextAlignment : Left;
+    TextFont : 15 bold;
+}
+
+#VoteCell {
+    cellFirstMarginTop : 10;
+    cellMarginLeftRight : 10;
+    cellContentMarginRight : 10;
+}
+
+#HorizontalColumnCell {
+    titleImageViewHeight : 130;
+    subscribrNumLabelMarginBottom : 22;
+}
+
+#MobOptionCell {
+    cellInnerMargin : 10;
+    cellPaddingLeftRight : 10;
+    contentLabelNumOfLine : 3;
+    contentLabelNumOfLineHasImage : 1;
+    noImageContentMarginTop : 8;
+}
+
+#ColumnCenter {
+    collectionViewCellHeight : 235;
+    allColumnCellHeight : 230;
+    allColumnRowSpace : 10;
+    allColumnPaddingTop : 10;
+    allColumnPaddingLeftRight : 10;
+    allColumnColumnSpace : 10;
+    sectionHeaderInnerLeft : 10;
+}
+
+#VoteOpinionCellLabel {
+    TextLineNumber : 3;
+}
+
+#ArticleFeedNormalTitleLabelRead {
+    TextFont : 15 bold;
+}

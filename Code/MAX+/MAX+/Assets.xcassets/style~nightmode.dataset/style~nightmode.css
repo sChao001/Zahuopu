@@ -1,0 +1,273 @@
+#FeedCell {
+    DefaultImageViewPlaceholder : #4f4f4f;
+    separateLineBgColor : #777777;
+    BackgroundColor : #595959;
+    lineBgColor : #777777;
+    CompositeCellChildTitleColor : #ffffff;
+    CompositeCellChildDescriptionColor : #ffffff;
+    CompositeCellChildTitlePointColor : qdYellowColor;
+    MobBarrageBackgroundColor : #55555aa;
+}
+
+#CompositeMoreNewsLabel {
+    HighlightedTextColor :#cccccc;
+    NormalTextColor : #cccccc;
+}
+
+#CompositeCalendarMonthLabel {
+    HighlightedTextColor : #000000;
+    NormalTextColor : #000000;
+}
+
+#CompositeCalendarDayLabel {
+    HighlightedTextColor : #cccccc;
+    NormalTextColor : #cccccc;
+}
+
+#CompositeFeedCell {
+    CalendarMonthLabelBGColor : #cccccc;
+    CalendarBorderColor : #ffffff;
+}
+
+#CommentContentLabel {
+    SelectedBGcolor : #444444;
+}
+
+#homeFeedVC {
+    BackgroundColor : #444444;
+}
+
+#NotifyPageView {
+    BackgroundColor : #595959;
+    PageTitleLabelSelectedColor : #ffffff;
+    PageTitleLabelNormalColor : #cccccc;
+}
+
+#ColumnLargeCellSummaryLabel {
+    HighlightedTextColor :#cccccc;
+    NormalTextColor : #cccccc;
+}
+
+#EmptyTipLabel {
+    TipLabelTextColor : #ffffff;
+}
+
+#MobFeedCell {
+    BackgroundColor : #6d6d6d;
+}
+
+#CommentCountLabel {
+    textColor : #ffffff;
+    lineColor : #444444;
+}
+
+#MobPublishFeedAuthorNameLabel {
+    HighlightedTextColor : #ffffff;
+    NormalTextColor : #ffffff;
+}
+
+#MobFeedPublishVC {
+    BackgroundColor : #444444;
+}
+
+#MobFeedPublishButton {
+    NormalTextColor : #cccccc;
+    HighlightedTextColor : #cccccc;
+}
+
+#LabFeedTitleView {
+    BackgroundColor : #6d6d6d;
+}
+
+#VoteCell {
+    CVBackgroundColor : #6d6d6d;
+    BackgroundColor : #595959;
+}
+
+#SectionHeaderLabel {
+    NormalTextColor : #ffffff;
+    HighlightedTextColor : #ffffff;
+}
+
+#VoteResultPercentageLabel {
+    HighlightedTextColor : #ffffff;
+    NormalTextColor : #ffffff;
+}
+
+#VoteResultContentLabel {
+    HighlightedTextColor : #cccccc;
+    NormalTextColor : #cccccc;
+}
+
+#OpinionTitleLabel {
+    NormalTextColor : #cccccc;
+}
+
+#OpinionContentLabel {
+    NormalTextColor : #ffffff;
+}
+
+#VoteOpinionCellLabel {
+    HighlightedTextColor : #ffffff;
+    NormalTextColor : #ffffff;
+}
+
+#UserCenterIndicatorButton {
+    BackgroundColor : clear;
+    NormalTextColor : #cccccc;
+    DisabledTextColor : #ffffff;
+    HighlightedTextColor : #cccccc;
+}
+
+#UserFeedRadarTitleLabel {
+    NormalTextColor : #ffffff;
+    HighlightedTextColor : #ffffff;
+}
+
+#UserFeedRadarDescriptionLabel {
+    NormalTextColor : #cccccc;
+    HighlightedTextColor : #cccccc;
+}
+
+#ArticleFeedNormalTitleLabel {
+    HighlightedTextColor : #ffffff;
+    NormalTextColor : #ffffff;
+}
+
+#ArticleFeedCommentsButton {
+    NormalTextColor : #cccccc;
+    HighlightedTextColor : #cccccc;
+}
+
+#ArticleFeedCommentsTextView {
+    PlaceholderColor : #ffffff;
+    textColor : #ffffff;
+}
+
+#ArticleFeedLikeButtonNormal {
+    NormalTextColor : #cccccc;
+    HighlightedTextColor : #cccccc;
+}
+
+#ArticleFeedLargeTitleLabel {
+    HighlightedTextColor : #ffffff;
+    NormalTextColor : #ffffff;
+}
+
+#ArticleFeedTitleBarTitleLabel {
+    NormalTextColor : #ffffff;
+    HighlightedTextColor : #ffffff;
+}
+
+#ArticleFeedLargeDescriptionLabel {
+    HighlightedTextColor : #cccccc;
+    NormalTextColor : #cccccc;
+}
+
+#ArticleFeedSmallCategoryLabel {
+    HighlightedTextColor : #cccccc;
+    NormalTextColor : #cccccc;
+}
+
+#ArticleFeedSmallDateLabel {
+    HighlightedTextColor : #cccccc;
+    NormalTextColor : #cccccc;
+}
+
+#QDColumnFeedsHeaderCellAuthorNameLabel {
+    NormalTextColor : #ffffff;
+    HighlightedTextColor : #ffffff;
+}
+
+#QDColumnFeedsHeaderCellAuthorDescriptionLabel {
+    NormalTextColor : #ffffff;
+    HighlightedTextColor : #ffffff;
+}
+
+#ColumnLineBgLabel {
+    BackgroundColor : #595959;
+    NormalTextColor : #cccccc;
+    HighlightedTextColor : #cccccc;
+}
+
+#HorizontalColumnCell {
+    BackgroundColor : #6d6d6d;
+}
+
+#ColumnCollectionViewCell {
+    containerViewBgColor : #6d6d6d;
+    BackgroundColor : #6d6d6d;
+    defaultBorderColor : clear;
+}
+
+#HorizontalColumnCellProviderNameButton {
+    NormalTextColor : #ffffff;
+    HighlightedTextColor :  #ffffff;
+}
+
+#ColumnCenter {
+    bgColor : #595959;
+}
+
+#ColumnCenterSectionTitleLabel {
+    NormalTextColor : #ffffff;
+    HighlightedTextColor : #ffffff;
+}
+
+#ColumnCenterSeparatorLine {
+    BackgroundColor : #777777;
+}
+
+#HorizontalColumnCellSubcriberNumButton {
+    NormalTextColor : #cccccc;
+    HighlightedTextColor : #cccccc;
+}
+
+#ColumnSmallCellTitleLabel {
+    HighlightedTextColor :#ffffff;
+    NormalTextColor : #ffffff;
+}
+
+#ColumnPublishTimeLabel {
+    HighlightedTextColor :#cccccc;
+    NormalTextColor : #cccccc;
+}
+
+#ColumnMovieCellTitleLabel {
+    HighlightedTextColor :#ffffff;
+    NormalTextColor : #ffffff;
+}
+
+#ArticleFeedBaseView {
+    BackgroundColor : #444444;
+}
+
+#ColumnMovieCellSummaryLabel {
+    HighlightedTextColor :#cccccc;
+    NormalTextColor : #cccccc;
+}
+
+#ColumnBestDesignLabel {
+    HighlightedTextColor : #ffffff;
+    NormalTextColor : #ffffff;
+}
+
+#ColumnLargeCellTitleLabel {
+    HighlightedTextColor :#ffffff;
+    NormalTextColor : #ffffff;
+}
+
+#HorizontalColumnCellColumnNameButton {
+    NormalTextColor : #ffffff;
+    HighlightedTextColor : #ffffff;
+}
+
+#HorizontalColumnCellSubcriberNumLabel {
+    NormalTextColor : #cccccc;
+    HighlightedTextColor : #cccccc;
+}
+
+#HorizontalColumnCellNameLabel {
+    NormalTextColor : #ffffff;
+    HighlightedTextColor :  #ffffff;
+}

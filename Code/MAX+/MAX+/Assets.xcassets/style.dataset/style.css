@@ -1,0 +1,1242 @@
+#Login:
+{
+   /**  头像  */
+    UserAvatarBtnWH : 80;
+    UserAvatarBtnTopMargin : 90;
+    AccountBgViewTopMargin: 40;
+    LoginBtnH: 44;
+    LoginBtnW: 163;
+    
+    LogoTopMargin: 60;
+    LogoTopLineTopMargin: 45;
+    
+    LogoInputHeight: 60;
+    LogoUserIconHeight: 64;
+    SeparacterLineMarginLeft: 8;
+    
+    HasQdailyAccountBotton :15;
+    HasQdailyAccountBottonFont :13
+    forgetBtnMargin :8;
+    forgetBtnW :100;
+    forgetBtnH :20;
+    registBtnW :100;
+    registBtnH :50;
+    loginBtnTopMargin: 60;
+    
+    LoginSeparateLineBGColor : rgba(256, 256, 256, 0.2);
+}
+
+#homeFeedVC {
+    BackgroundColor : #f2f2f2;
+    BannerFeedCellHeight : 300.0;
+}
+
+#NewFeatures {
+    PageOneLogoMarginTop : 135;
+    PageOneLogoWidth : 50;
+    PageOneLogoHeight : 106;
+    
+    PageOneTextMarginTop : 50;
+    PageOneTextWidth : 240;
+    PageOneTextHeight : 80;
+    
+    PageControlMarginBottom : 70;
+    PageControlWidth : 100;
+    PageControlHeight : 20;
+    PageControlIndicatorMargin : 23;
+    PageControlIndicatorDiameter : 15;
+    PageOnePointAnimationDuration : 0.2;
+    PageOneTextAnimationDuration : 0.4;
+}
+
+#NewFeaturesPageTwo {
+    ElementImageLeft : 36 dynamic;
+    ElementImageTop : 36 ;
+    ElementImageMarginBottom : 247 dynamic;
+
+    TextImageLeft : 36 dynamic;
+    TextImageMarginTop : 18 dynamic;
+}
+
+#NewFeaturesPageThree {
+    PhoneImageLeft : 52 dynamic;
+    PhoneImageTop : 109 dynamic;
+    
+    TextOneImgLeft : 37 dynamic;
+    TextOneImgTop : 94 dynamic;
+    TextTwoImgMarginTop : 77 dynamic;
+    
+    NoMissImgLeft : 110 dynamic;
+    NoMissImgTop : 42 dynamic;
+    RepImgLeft : 150 dynamic;
+    RepImgTop : 210 dynamic;
+    
+    OpenPushBtnMarginBottom : 160 dynamic;
+    CancelButtonMarginTop : 20 dynamic;
+}
+
+#Regist:
+{
+    /**  关闭按钮  */
+    CloseBtnWH:35 ;
+    CloseBtnTopMargin: 30;
+    CloseBtnLeftMargin: 17;
+    ThirdViewTopMargin: 19;
+    LoginBtnMarginTop :46;
+    MailBoxMarginTop :13;
+    ThirdViewTopMargin :19;
+    LogoThirdParty: 240;
+    LogoThirdPartyMarginTop :190;
+    resumeTextViewH: 56;
+}
+/**  动画常量  */
+#Animation:
+{
+    AnimationDuration: 0.5
+    SpringWithDamping: 0.7
+    SpringVelocity: 0.4
+}
+
+#QDNotificationRoot {
+    NavigationViewHeight :115;
+}
+
+#QDNotifyCell
+{
+    QDNotifyCellGap: 5;
+    TitleLabelFontSize:13;
+    UserIconLeftGap:10;
+    UserIconWidth:35;
+    HeadTitleLabelTopGap:15;
+    ReplyButtonWidth:36;
+    ReplyButtonHeight:20;
+}
+
+#QDNotifySystemMessageCell
+{
+    QDNotifySystemMessageCellMargin :5;
+    qIconImageViewWidth :35;
+    qIconImageViewLeftMargin :10;
+    titleLabelTopMargin :15;
+    themeImageViewHeigth :140;
+    themeTexeViewHeight :105;
+}
+
+#CompositeFeedCell {
+    PointLeftMargin : 20;
+    PointWidth : 7;
+    ContentLabelLeftMargin : 20;
+    ContentLabelRightMargin : 20;
+    ContentLabelTopMargin : 8;
+    ContentLabelBottomMargin : 15;
+    ReadMoreRightMargin : 10;
+    ReadMoreTopMargin : 20;
+    TitleViewBottomMargin : 0;
+    shadowViewEdge : 8;
+    shadowViewEdgeshadowRadius : 5;
+    calendarIconLeftMargin : 10;
+    calendarIconWidth : 30;
+    CalendarMonthLabelBGColor : #f0f0f0;
+    CalendarBorderColor : #cccccc;
+}
+
+#CompositeCalendarMonthLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #737373;
+    NormalTextColor : #737373;
+    TextAlignment : Center;
+    TextFont : 8;
+}
+
+#CompositeCalendarDayLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #737373;
+    NormalTextColor : #737373;
+    TextAlignment : Center;
+    TextFont : 12;
+}
+
+#FeedCell {
+    DefaultImageViewPlaceholder : #fafafa;
+    
+    separateLineBgColor : #f4f4f4;
+    BackgroundColor : #ffffff;
+    cellInnerMargin : 5;
+    
+    bannerHeight : 300 dynamic;
+    bannerPaddingLeft : 30;
+    bannerPaddingBottom : 33;
+    bannerDescriptionMarginTop : 12;
+    
+    cellPaddingTopMargin : 15;
+    cellPaddingDefault : 15;
+    
+    titlebarHeight : 50;
+    titlebarIconWidth : 20;
+    titlebarTitleMarginLeft : 8;
+    titlebarRightBtnWidth : 20;
+    
+    lineBgColor : rgb(222, 222, 222);
+    
+    CompositeCellChildTitleFont : 15 bold;
+    CompositeCellChildDescriptionFont : 15;
+    CompositeCellChildTitleColor : #000000;
+    CompositeCellChildDescriptionColor : #2a2a2a;
+    CompositeCellChildTitlePointColor : qdYellowColor;
+    CompositeCellChildLineSpacing : 5;
+    CompositeCellChildParagraphSpacing : 8;
+    CompositeCellChildMarginTop : 4;
+    CompositeCellChildMarginBottom : 38;
+    
+    ADArticleVideoFeedCellHeight : 300;
+    
+    ExperimentTagWidth : 65;
+    
+    LabTitleImageHeight : 200;
+    LabJoinViewMarginTop : 11;
+    LabJoinViewMarginRight : 11;
+    LabJoinViewWidth : 57;
+    LabJoinViewHeight : 48;
+    LabCategoryImageWidth : 35;
+    
+    LabVoteCellLeftMargin :40;
+    LabVoteCellHight :160;
+    LabVoteCellWidth :670;
+    
+    MobTitleImageHeight : 300;
+    MobBarrageMarginTop : 30;
+    MobBarrageInnerMargin : 15;
+    MobBarrageMaxRow : 6;
+    MobBarrageBackgroundColor : #555555aa;
+    
+    PostGenreDesignCellHight : 265;
+    
+    ArticleFeedBookCellHeight : 255;
+    
+/*    ArticleFeedBookCellHeight : 255;*/
+
+    HorizontalFeedCellSmallHeight : 256;
+    
+    /** 在首页上横向栏目的cell的高度 */
+    HorizontalFeedCellHeight : 265;
+    HorizontalFeedCellMarginTop : 10;
+    HorizontalFeedCellInnerMargin : 5;
+/*  首页我的订阅底部栏目名称占用大小  */
+    HorizontalFeedCellColumnNameHeight : 30;
+    HorizontalFeedCellCVMarginLeft : 20;
+    
+    summaryLabelHeigth : 30;
+    cellEdgeMargin : 20;
+    cellInsetMargin : 5;
+    
+    smallCellHeight: 135;
+    cellPaddingBottomMargin : 10;
+    bigCellBottomHeight : 63;
+    bigCellImageHeight : 200;
+    bigCellContentHeight : 140;
+    bigCellDescriptionMarginTitle : 9;
+    bigCellBottomMargin : 14;
+    
+    LabJoinCountLabelMarginTop : 6;
+    
+    bottomCommentIconMarginLeft : 6;
+    bottomPraiseIconMarginLeft : 10;
+    bottomTimeLabelMarginLeft : 8;
+    
+    compositeMoreNewsLabelMarginBottom : 18;
+    experimentArticleBottomHeight : 25;
+    
+    smallADCellHeight: 135 dynamic;
+    bigADCellImageHeight : 200 dynamic;
+    bigADCellImageNoTitleHeight : 220 dynamic;
+}
+
+#CompositeMoreNewsLabel {
+    TextLineNumber : 1;
+    NormalTextColor : #989898;
+    HighlightedTextColor :#989898;
+    TextAlignment : Right;
+    TextFont : 12;
+}
+
+#OpinionTitleLabel {
+    TextLineNumber : 0;
+    NormalTextColor : rgba(255, 255, 255, 0.8);
+    TextAlignment : Left;
+    TextFont : 14;
+}
+
+#OpinionContentLabel {
+    TextLineNumber : 2;
+    NormalTextColor : #FFFFFF;
+    TextAlignment : Left;
+    TextFont : 16 bold;
+}
+
+#MobFeedCell {
+    BackgroundColor : #ffffff;
+}
+
+/** 横向的cell的尺寸  */
+#ColumnCollectionViewCell {
+    BackgroundColor : #ffffff;
+    containerViewBgColor : #ffffff;
+    defaultBorderColor : rgba(0, 0, 0, 0.12);
+    
+/*  所有横滑图片大小固定  */
+    HorizontalCellPictureHeight : 150;
+    
+    bestDesignCellWidth : 152;
+    bestDesignCellCommentImageWH : 5;
+    bestDesignCellTitleLabelMarginTop :20;
+    bestDesignCellTitleLabelMarginLeft :10;
+    
+    HWoodPlanCellWidth : 315;
+    HWoodPlanCellMarginBotton :18;
+    HWoodPlanCellResumeLabelMarginBotton :12;
+    HWoodPlanCellPictureMarginBotton :15;
+    HWoodPlanCellTitleLabelHeight : 17;
+    HWoodPlanCellTitleLabelMaxWidth :202;
+    HWoodPlanCellLikeTimeLabelWidth : 150;
+    HWoodPlanCellLikeTimeLabelMarginLeft :14;
+
+    TheTalkCellWidth : 152;
+    TheTalkJobLabelBottomMargin : 30;
+    TheTalkJobLabelWidth : 150;
+    TheTalkJobLabelHeigth : 30;
+    TheTalkNameLabelBottomMargin : 20;
+    TheTalkNameLabelWidth : 150;
+    TheTalkNameLabelHeigth : 40;
+    TheTalkIconViewBottomMargin : 30;
+    
+    goodPictureCellWidth : 315;
+    goodPictureCellTimeLabelWidth : 20;
+    
+    movieCellWidth : 152;
+    movieTitleLabelMarginTop : 10;
+    /*  标题1行时候  */
+    movieTitleLabelMarginTopBig : 20;
+    movieTitleLabelMarginLeft : 10;
+    movieSummaryLabelMarginTop : 8;
+    
+    smallCellWidth : 152;
+    
+    largeCellWidth : 278;
+    largeTitleLabelMarginTop : 10;
+/*  标题1行时候  */
+    largeTitleLabelMarginTopBig : 20;
+    largeTitleLabelMarginLeft : 10;
+    largeSummaryLabelMarginTop : 8;
+    
+    centerCommentMarginCenter : 5;
+    centerPraiseMarginCenter : 5;
+}
+
+#ColumnHWoodPlanResuemLabel {
+    TextLineNumber : 3;
+    NormalTextColor : #737373;
+    HighlightedTextColor :#737373;
+    TextAlignment : Left;
+    TextFont : 14 ;
+}
+
+#ColumnGoodPictureLikeTimeLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor :#737373;
+    NormalTextColor : #737373;
+    TextAlignment : Left;
+    TextFont : 14 ;
+}
+
+/* 那种有横滑的cell中的简介 */
+#FeedCellColumnResumeLabel {
+    TextLineNumber : 3;
+    HighlightedTextColor :#737373;
+    NormalTextColor : #737373;
+    TextAlignment : Left;
+    TextFont : 14 ;
+}
+
+#ColumnLargeCellTitleLabel {
+    TextLineNumber : 2;
+    HighlightedTextColor :#000000;
+    NormalTextColor : #000000;
+    TextAlignment : Left;
+    TextFont : 14 bold;
+}
+
+#ColumnLargeCellTitleLabelRead {
+    TextLineNumber : 2;
+    HighlightedTextColor : qdReadTextColor;
+    NormalTextColor : qdReadTextColor;
+    TextAlignment : Left;
+    TextFont : 14 bold;
+}
+
+#ColumnLargeCellSummaryLabel {
+    TextLineNumber : 2;
+    HighlightedTextColor :#737373;
+    NormalTextColor : #737373;
+    TextAlignment : Left;
+    TextFont : 13 ;
+}
+
+#ColumnLargeCellSummaryLabelRead {
+    TextLineNumber : 2;
+    HighlightedTextColor :qdReadDescriptionTextColor;
+    NormalTextColor : qdReadDescriptionTextColor;
+    TextAlignment : Left;
+    TextFont : 13 ;
+}
+
+#ColumnMovieCellTitleLabel {
+    TextLineNumber : 2;
+    HighlightedTextColor :#000000;
+    NormalTextColor : #000000;
+    TextAlignment : Left;
+    TextFont : 14 bold;
+}
+
+#ColumnMovieCellTitleLabelRead {
+    TextLineNumber : 2;
+    HighlightedTextColor : qdReadTextColor;
+    NormalTextColor : qdReadTextColor;
+    TextAlignment : Left;
+    TextFont : 14 bold;
+}
+
+#ColumnMovieCellSummaryLabel {
+    TextLineNumber : 2;
+    HighlightedTextColor :#737373;
+    NormalTextColor : #737373;
+    TextAlignment : Left;
+    TextFont : 13 ;
+}
+
+#ColumnMovieCellSummaryLabelRead {
+    TextLineNumber : 2;
+    HighlightedTextColor :qdReadDescriptionTextColor;
+    NormalTextColor : qdReadDescriptionTextColor;
+    TextAlignment : Left;
+    TextFont : 13 ;
+}
+
+#ColumnGoodPictureTimeLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor :#424242;
+    NormalTextColor : #424242;
+    TextAlignment : Left;
+    TextFont : 13;
+}
+
+#ColumnTheTalkNameLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor :#555555;
+    NormalTextColor : #555555;
+    TextAlignment : Center;
+    TextFont : 14 bold ;
+}
+
+#ColumnTheTalkNameLabelRead {
+    TextLineNumber : 1;
+    HighlightedTextColor :qdReadTextColor;
+    NormalTextColor : qdReadTextColor;
+    TextAlignment : Center;
+    TextFont : 14 bold ;
+}
+
+#ColumnTheTalkJobLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor :#888888;
+    NormalTextColor : #888888;
+    TextAlignment : Center;
+    TextFont : 14 ;
+}
+
+#ColumnBestDesignLabel {
+    TextLineNumber : 2;
+    HighlightedTextColor : #000000;
+    NormalTextColor : #000000;
+    TextAlignment : Center;
+    TextFont : 15 bold;
+}
+
+#ColumnBestDesignLabelRead {
+    TextLineNumber : 2;
+    HighlightedTextColor : qdReadTextColor;
+    NormalTextColor : qdReadTextColor;
+    TextAlignment : Center;
+    TextFont : 15 bold;
+}
+
+#ColumnMovieCellMovieLengthLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #ffffff;
+    NormalTextColor : #ffffff;
+    TextAlignment : Right;
+    TextFont : 12;
+}
+
+#ColumnMovieCellMovieLengthLabelRead {
+    TextLineNumber : 1;
+    HighlightedTextColor : qdReadDescriptionTextColor;
+    NormalTextColor : qdReadDescriptionTextColor;
+    TextAlignment : Right;
+    TextFont : 12;
+}
+
+#ColumnPublishTimeLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor :#737373;
+    NormalTextColor : #737373;
+    TextAlignment : Left;
+    TextFont : 12 ;
+}
+
+#ColumnPublishTimeLabelRead {
+    TextLineNumber : 1;
+    HighlightedTextColor :qdReadDescriptionTextColor;
+    NormalTextColor : qdReadDescriptionTextColor;
+    TextAlignment : Left;
+    TextFont : 12 ;
+}
+
+#ColumnSmallCellTitleLabel {
+    TextLineNumber : 3;
+    HighlightedTextColor :#000000;
+    NormalTextColor : #000000;
+    TextAlignment : Center;
+    TextFont : 14 bold;
+}
+
+#ColumnSmallCellTitleLabelRead {
+    TextLineNumber : 3;
+    HighlightedTextColor : qdReadTextColor;
+    NormalTextColor : qdReadTextColor;
+    TextAlignment : Center;
+    TextFont : 14 bold;
+}
+
+#UserCenter {
+    OriOffsetY :397;
+    RadarChartMarginTop :35;
+    RadarChartWH :150;
+    topContentViewH :338;
+    ResumeBgViewH :98;
+    ResumeLabelMarginLeft :20;
+    IndicatorViewH :50;
+    BottonLineWidth :100;
+}
+
+#UserCenterResumeLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #424242;
+    NormalTextColor : #424242;
+    TextFont : 16 bold;
+    TextAlignment : Left;
+}
+#UserCenterMessageLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #888888;
+    NormalTextColor : #888888;
+    TextFont : 15;
+    TextAlignment : Left;
+}
+
+#UserCenterIndicatorButton {
+    BackgroundColor : clear;
+    DisabledTextColor : #000000;
+    NormalTextColor : #888888;
+    HighlightedTextColor : #888888;
+    TextFont : 14;
+}
+
+#UserSetingUserDescription {
+    NormalTextColor ： #11111155;
+}
+
+#UsersCenter {
+    indicatorCellStopOffsetY : 241.5;
+}
+
+#UserCenterSetting {
+    UserIconBtnWidth :50;
+    UserIconBtnHeight :90;
+    settingCellBgWhite :0.8;
+    settingCellBgAlpha :0.4;
+    settingCellHeight :45;
+    ThirdCellHeight :47;
+}
+
+#NotifyQDNotifyCellADTextView {
+    NormalTextColor ： #000000;
+}
+
+#ArticleFeedBaseView {
+    BackgroundColor : #F4F4F4;
+}
+
+#NotifyPageView {
+    BackgroundColor : #ffffff;
+    PageTitleLabelSelectedColor : #000000;
+    PageTitleLabelNormalColor : rgb(134,134,134);
+}
+
+#ArticleFeedCommentsButton {
+    UseImage : true;
+    BackgroundColor : clear;
+    NormalImage : feedComment.png;
+    NormalTextColor : #737373;
+    HighlightedTextColor : #737373;
+    TextFont : 12;
+    SwapImageAndTitle : false;
+    TitleEdgeInsets : 0 2 0 -2;
+    ImageEdgeInsets : 0 -2 -1 2;
+}
+
+#ArticleFeedCommentsButtonRead {
+    UseImage : true;
+    BackgroundColor : clear;
+    NormalImage : feedCommentRead.png;
+    NormalTextColor : qdReadDescriptionTextColor;
+    HighlightedTextColor : qdReadDescriptionTextColor;
+    TextFont : 12;
+    SwapImageAndTitle : true;
+    TitleEdgeInsets : 0 2 0 -2;
+    ImageEdgeInsets : 0 -2 -1 2;
+}
+
+#ArticleFeedLikeButtonNormal {
+    UseImage : true;
+    BackgroundColor : clear;
+    NormalImage : feedPraise.png;
+    HighlightedImage : articleFeedLikeHL;
+    NormalTextColor : #737373;
+    HighlightedTextColor : #737373;
+    TextFont : 12;
+    SwapImageAndTitle : false;
+    TitleEdgeInsets : 0 2 0 -2;
+    ImageEdgeInsets : 0 -2 -1 2;
+}
+
+#ArticleFeedLikeButtonNormalRead {
+    UseImage : true;
+    BackgroundColor : clear;
+    NormalImage : feedPraiseRead.png;
+    HighlightedImage : articleFeedLikeHL;
+    NormalTextColor : qdReadDescriptionTextColor;
+    HighlightedTextColor : qdReadDescriptionTextColor;
+    TextFont : 12;
+    SwapImageAndTitle : true;
+    TitleEdgeInsets : 0 2 0 -2;
+    ImageEdgeInsets : 0 -2 -1 2;
+}
+
+#ArticleFeedSmallDateLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #737373;
+    NormalTextColor : #737373;
+    TextAlignment : Left;
+    TextFont : 12;
+}
+
+#ArticleFeedSmallDateLabelRead {
+    TextLineNumber : 1;
+    HighlightedTextColor : qdReadDescriptionTextColor;
+    NormalTextColor : qdReadDescriptionTextColor;
+    TextAlignment : Left;
+    TextFont : 12;
+}
+
+#ArticleFeedSmallCategoryLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #737373;
+    NormalTextColor : #737373;
+    TextAlignment : Left;
+    TextFont : 12;
+}
+
+#ArticleFeedSmallCategoryLabelRead {
+    TextLineNumber : 1;
+    HighlightedTextColor : qdReadDescriptionTextColor;
+    NormalTextColor : qdReadDescriptionTextColor;
+    TextAlignment : Left;
+    TextFont : 12;
+}
+
+#ArticleExperimentTitleLabel {
+    TextLineNumber : 0;
+    HighlightedTextColor : #ffffff;
+    NormalTextColor : #ffffff;
+    TextAlignment : Center;
+    TextFont : 28 bold;
+}
+
+#ArticleExperimentSummaryLabel {
+    TextLineNumber : 3;
+    HighlightedTextColor : #ffffff;
+    NormalTextColor : #ffffff;
+    TextAlignment : Center;
+    TextFont : 16;
+}
+
+#ArticleFeedNormalTitleLabelRead {
+    TextLineNumber : 3;
+    TextAlignment : Left;
+    TextFont : 16 bold;
+    HighlightedTextColor : qdReadTextColor;
+    NormalTextColor : qdReadTextColor;
+}
+
+#ArticleFeedNormalTitleLabel {
+    TextLineNumber : 3;
+    HighlightedTextColor : rgb(42, 42, 42);
+    NormalTextColor : rgb(42, 42, 42);
+    TextAlignment : Left;
+    TextFont : 16 bold;
+}
+
+#ArticleFeedLargeTitleLabel {
+    TextLineNumber : 2;
+    HighlightedTextColor : rgb(42, 42, 42);
+    NormalTextColor : rgb(42, 42, 42);
+    TextAlignment : Left;
+    TextFont : 16 bold;
+}
+
+#ArticleFeedLargeTitleLabelRead {
+    TextLineNumber : 2;
+    HighlightedTextColor : qdReadTextColor;
+    NormalTextColor : qdReadTextColor;
+    TextAlignment : Left;
+    TextFont : 16 bold;
+}
+
+#ArticleFeedLargeDescriptionLabel {
+    TextLineNumber : 3;
+    HighlightedTextColor : #737373;
+    NormalTextColor : #737373;
+    TextAlignment : Left;
+    TextFont : 14;
+}
+
+#ArticleFeedLargeDescriptionLabelRead {
+    TextLineNumber : 3;
+    HighlightedTextColor : qdReadDescriptionTextColor;
+    NormalTextColor : qdReadDescriptionTextColor;
+    TextAlignment : Left;
+    TextFont : 14;
+}
+
+#ArticleFeedTitleBarTitleLabel {
+    TextLineNumber : 1;
+    NormalTextColor : #000000;
+    HighlightedTextColor : #000000;
+    TextAlignment : Left;
+    TextFont : 17 bold;
+}
+
+#ArticleFeedTitleBarShareButton {
+    BackgroundColor : clear;
+    NormalImage : feedShare.png;
+    HighlightedImage : feedShare.png;
+}
+
+#ArticleFeedTitleBarFollowButton {
+    BackgroundColor : clear;
+    NormalImage : feedFollow.png;
+    SelectedImage : feedFollowed.png;
+}
+
+#LabFeedCountLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : qdYellowColor;
+    NormalTextColor : qdYellowColor;
+    TextAlignment : Left;
+    TextFont : 20 DINCondensed-Bold;
+}
+
+#LabFeedAlreadyJoinStringeLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : qdGrayTextColor;
+    NormalTextColor : qdGrayTextColor;
+    TextAlignment : Left;
+    TextFont : 12;
+}
+
+#BannerTitleLabel {
+    TextLineNumber : 3;
+    HighlightedTextColor : #ffffff;
+    NormalTextColor : #ffffff;
+    TextAlignment : Left;
+    TextFont : 22 bold;
+}
+
+#BannerDescriptionLabel {
+    TextLineNumber : 3;
+    HighlightedTextColor : #ffffffcc;
+    NormalTextColor : #ffffffcc;
+    TextAlignment : Left;
+    TextFont : 14;
+}
+
+#QDMenuView {
+/*  menu的高度就是里面icon的宽高  */
+    menuViewHeight : 35;
+    cellHeight : 58;
+    menuTitleMarginLeft : 10;
+    indicateViewMarginLeft : 10;
+    menuViewMarginLeft: 28;
+/*  搜索、设置相关的所有  */
+    menuHeaderHeight : 170 ;
+    menuHeaderHeightMarginBottom : 10;
+    menuHeaderButtonWidth : 40;
+    menuHeaderButtonHeight : 60;
+    menuHeaderButtonInnerPadding : 35;
+    
+    menuButtonMarginBottom : 20;
+    menuButtonWidth : 44;
+    menuButtonMarginTop : 10;
+    menuHeaderButtonTextColor : #aaaaaa;
+    menuHeaderButtonTextFont : 14;
+    
+    headButtonMarginTop : 25;
+}
+
+#QDMenuViewTitleLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #ffffff;
+    NormalTextColor : #ffffff;
+    TextAlignment : Left;
+    TextFont : 16;
+}
+
+#QDMenuViewMsgLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #000000;
+    NormalTextColor : #000000;
+    TextAlignment : Center;
+    TextFont : 12;
+    BackgroundColor : #ffffff;
+}
+
+#QDColumnFeedsHeaderCell {
+    imageHeight : 240;
+    followButtonWidth : 50;
+    followButtonMarginBotton : 10;
+    descriptionMarginLeft : 35;
+    descriptionMarginBottom : 6;
+    titleMarginLeft : 40;
+    titleMarginBottom : 6;
+    
+    subcriberImageWidth : 37;
+    
+    authorButtonHeight : 65;
+    authorButtonWidth : 45;
+    
+    multiAuthorNameHeight : 30;
+    multiAuthorDescriptionHeight : 50;
+    
+    authorDescriptionMarginLeft : 10;
+/*  竖直内边距 */
+    subcriberImageInnerMarginV : 10;
+/*  水平内边距  */
+    subcriberImageInnerMarginH : 10;
+    subcriberImageViewMarginLeft : 45;
+/*  外面黄圈环的宽度  */
+    authorCircleWidth: 4;
+    subcriberImageViewMarginBottom : 4;
+    
+/*  xxx人已关注  */
+    lineLabelHeight : 41;
+    lineMarginLeftRight : 10;
+}
+
+#QDColumnFeedsHeaderCellSubcriberLabel {
+    TextLineNumber : 0;
+    NormalTextColor : #333333;
+    TextAlignment : Center;
+    TextFont : 14;
+}
+
+#QDColumnFeedsHeaderCellTitleLabel {
+    TextLineNumber : 0;
+    NormalTextColor : #ffffff;
+    HighlightedTextColor : #ffffff;
+    TextAlignment : Center;
+    TextFont : 26 bold;
+}
+
+#QDColumnFeedsHeaderCellDescriptionLabel {
+    TextLineNumber : 0;
+    NormalTextColor : #ffffff;
+    HighlightedTextColor : #ffffff;
+    TextAlignment : Center;
+    TextFont : 14;
+}
+
+#QDColumnFeedsHeaderCellAuthorDescriptionLabel {
+    TextLineNumber : 0;
+    NormalTextColor : rgb(42, 42, 42);
+    HighlightedTextColor : rgb(42, 42, 42);
+    TextAlignment : Left;
+    TextFont : 12;
+}
+
+#QDColumnFeedsHeaderCellAuthorNameLabel {
+    TextLineNumber : 0;
+    NormalTextColor : rgb(42, 42, 42);
+    HighlightedTextColor : rgb(42, 42, 42);
+    TextAlignment : Center;
+    TextFont : 12 bold;
+}
+
+#QDDetailToolBar {
+    toolBarHeight : 50;
+    toolBarMarginBottom : -6;
+    /*  视觉稿是20，但图片有16px的阴影，所以是4  */
+    backgroundImage : toolbarBg.png 69 35;
+    backButtonWidth : 54;
+}
+
+#HorizontalColumnCell {
+    BackgroundColor : #ffffff;
+    cellHeight : 252;
+    cellWidth : 150;
+    titleImageViewHeight : 150;
+    subscribButtonWidth : 36;
+    nameLabelMarginTitleImageView : 32;
+    subscribrNumLabelMarginBottom : 32;
+}
+
+#HorizontalColumnCellNameLabel {
+    TextLineNumber : 2;
+    NormalTextColor : #ffffff;
+    HighlightedTextColor :  #ffffff;
+    TextFont : 18 bold;
+    TextAlignment : Center;
+}
+
+#ColumnCenterTipsLabel {
+    TextLineNumber : 2;
+    NormalTextColor : #939393;
+    HighlightedTextColor :  #939393;
+    TextFont : 16;
+    TextAlignment : Center;
+}
+
+#HorizontalColumnCellProviderNameButton {
+    UseImage : true;
+    BackgroundColor : clear;
+    NormalImage : columnCellAuthor.png;
+    NormalTextColor : #6d6d6d;
+    HighlightedTextColor :  #6d6d6d;
+    TextFont : 14;
+}
+
+#HorizontalColumnCellSubcriberNumButton {
+    UseImage : true;
+    BackgroundColor : clear;
+    NormalImage : columnCellSubscriber.png;
+    NormalTextColor : #989898;
+    HighlightedTextColor : #989898;
+    TextFont : 12;
+}
+
+#HorizontalColumnCellSubcriberNumLabel {
+    TextLineNumber : 2;
+    NormalTextColor : rgb(195, 195, 195);
+    HighlightedTextColor : rgb(195, 195, 195);
+    TextAlignment : Center;
+    TextFont : 12;
+}
+
+#HorizontalColumnCellColumnNameButton {
+    HighlightedTextColor : #333333;
+    BackgroundColor : clear;
+    NormalTextColor : #333333;
+    TextFont : 14;
+}
+
+#SectionHeaderLabel {
+    TextLineNumber : 1;
+    NormalTextColor : #000000;
+    HighlightedTextColor : #000000;
+    TextAlignment : Left;
+    TextFont : 18 bold;
+}
+
+#UserFeedCell {
+    radarHeight : 200;
+    avatarHeight : 60;
+    titleMarginTop : 20;
+    titleHeight : 20;
+    descriptionMarginTop : 5;
+    descriptionHeight : 40;
+    descriptionMarginBottom : 15;
+    collectionViewHeight : 250;
+    collectionViewMarginBottom : 20;
+}
+
+#UserFeedRadarTitleLabel {
+    TextLineNumber : 1;
+    NormalTextColor : #000000;
+    HighlightedTextColor : #000000;
+    TextAlignment : Left;
+    TextFont : 18 bold;
+}
+
+#UserFeedRadarDescriptionLabel {
+    TextLineNumber : 2;
+    NormalTextColor : #666666;
+    HighlightedTextColor : #666666;
+    TextAlignment : Left;
+    TextFont : 16;
+}
+
+#ColumnCenter {
+    sectionHeaderHeight : 45;
+    sectionHeaderInnerLeft : 20;
+    mySubscriptionCollection : 60;
+    collectionViewCellHeight : 265;
+    separacterLineHeight : 5;
+    separacterLineColor : #666666;
+    
+    bgColor : #ffffff;
+    
+    allColumnRowSpace : 15;
+    allColumnColumnSpace : 15;
+    allColumnPaddingLeftRight : 20;
+    allColumnPaddingTop : 15;
+    allColumnCellHeight : 265;
+}
+
+#ColumnLineBgLabel {
+    BackgroundColor : #ffffff;
+    NormalTextColor : rgb(148,148,148);
+    HighlightedTextColor : rgb(148,148,148);
+}
+
+#ColumnCenterSectionTitleLabel {
+    TextLineNumber : 1;
+    NormalTextColor : #000000;
+    HighlightedTextColor : #000000;
+    TextAlignment : Left;
+    TextFont : 15 bold;
+}
+
+#ColumnCenterSeparatorLine {
+    BackgroundColor : rgb(242, 242, 242);
+}
+
+#ArticleShareView {
+    buttonWidth : 90;
+    buttonMarginLeft : 30;
+    buttonMarginRight : 30;
+    buttonInnerMarginV : 35;
+    cancelButtonMarginTop : 85;
+    closeButtonMarginBottom : 33;
+}
+
+#MobOptionCell {
+    cellPaddingLeftRight : 20;
+    cellInnerMargin : 15;
+    cellContentMarginLeft : 10;
+    
+    avatarMarginTop : 13;
+    avatarHeight : 25;
+    praiseButtonHeight : 16;
+    praiseButtonMarginBottom : 10;
+    shareButtonMarginBottom : 12;
+    contentLabelNumOfLine : 4;
+    contentLabelNumOfLineHasImage : 2;
+    noImageContentMarginTop : 10;
+}
+
+#MobFeedLikeButtonNormal {
+    NormalIcon : mobLike.png;
+    HighlightedIcon : mobLiked.png;
+    BackgroundColor: clear;
+    NormalTextColor : #ffffff;
+    HighlightedTextColor : #ffffff;
+    TextFont : 12;
+}
+
+#MobFeedAuthorNameLabel {
+    HighlightedTextColor : #ffffff;
+    TextLineNumber : 1;
+    BackgroundColor : clear;
+    NormalTextColor : #ffffff;
+    TextFont : 12;
+    TextAlignment : Left;
+}
+
+#MobPublishFeedAuthorNameLabel {
+    HighlightedTextColor : #000000;
+    TextLineNumber : 1;
+    BackgroundColor : clear;
+    NormalTextColor : #000000;
+    TextFont : 12;
+    TextAlignment : Left;
+}
+
+#LabFeedTitleView {
+    BackgroundColor : #ffffff;
+}
+
+#MobFeedTitleLabel {
+    TextLineNumber : 2;
+    NormalTextColor : #ffffff;
+    HighlightedTextColor : #ffffff;
+    BackgroundColor : clear;
+    TextFont : 14;
+    TextAlignment : Left;
+}
+
+#MobFeedTitleLabelBig {
+    TextLineNumber : 1;
+    NormalTextColor : #ffffff;
+    HighlightedTextColor : #ffffff;
+    BackgroundColor : clear;
+    TextFont : 21;
+    TextAlignment : Center;
+}
+
+#MobFeedPublishButton {
+    NormalIcon : mobFeedCellPencil.png;
+    HighlightedIcon : mobFeedCellPencil.png;
+    BackgroundColor: clear;
+    NormalTextColor : #333333;
+    HighlightedTextColor : #333333;
+    TextFont : 18;
+}
+
+#CommentLikeButtonNormal {
+    BackgroundColor : clear;
+    NormalIcon : commentLike.png;
+    HighlightedIcon : commentLiked.png;
+    NormalTextColor : qdGrayTextColor;
+    HighlightedTextColor : qdGrayTextColor;
+    TextFont : 14;
+}
+
+#VoteCell {
+    CVBackgroundColor : #ffffff;
+    BackgroundColor : rgb(237,237,237);
+    cellHeight : 80;
+    cellFirstMarginTop : 20;
+    cellMarginTop : 10;
+    cellMarginLeftRight : 20;
+    cellTickBtnMarginLeft : 15;
+    cellTickBtnWidth : 24;
+    cellContentMarginLeft : 13;
+    cellContentMarginRight : 20;
+}
+
+#ShareOpinionCellLabel {
+    TextLineNumber : 2;
+    HighlightedTextColor : rgba(42, 42, 42, 0.8);
+    NormalTextColor : rgba(42, 42, 42, 0.8);
+    TextFont : 14;
+    TextAlignment : Left;
+}
+
+#VoteOpinionCellLabel {
+    TextLineNumber : 4;
+    HighlightedTextColor : rgba(42, 42, 42, 0.8);
+    NormalTextColor : rgba(42, 42, 42, 0.8);
+    TextFont : 14;
+    TextAlignment : Left;
+}
+
+#VoteResultPercentageLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #000000;
+    NormalTextColor : #000000;
+    TextFont : 15 bold;
+    TextAlignment : Left;
+}
+
+#VoteResultContentLabel {
+    TextLineNumber : 2;
+    HighlightedTextColor : #606060;
+    NormalTextColor : #606060;
+    TextFont : 15;
+    TextAlignment : Left;
+}
+
+#MobFeedPublishVC {
+    BackgroundColor : #ffffff;
+}
+
+#CommentCountLabel {
+    textColor : #000000;
+    lineColor : #cccccc;
+}
+
+#CommentContentLabel {
+    SelectedBGcolor : #e5e5e5;
+}
+
+#ShareCardNameLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #000000;
+    NormalTextColor : #000000;
+    TextFont : 16 bold;
+    TextAlignment : Left;
+}
+
+#ShareCardTitleLabel {
+    TextLineNumber : 1;
+    HighlightedTextColor : #c2c2c2;
+    NormalTextColor : #c2c2c2;
+    TextFont : 16 bold;
+    TextAlignment : Left;
+}
+
+#ShareVoteCardTitleLabel {
+    TextLineNumber : 0;
+    HighlightedTextColor : #000000;
+    NormalTextColor : #000000;
+    TextFont : 16 bold;
+    TextAlignment : Left;
+}
+
+#ShareMobCardTitleLabel {
+    TextLineNumber : 0;
+    HighlightedTextColor : #000000;
+    NormalTextColor : #000000;
+    TextFont : 17 bold;
+    TextAlignment : Left;
+}
+
+#EmptyTipLabel {
+    TipLabelTextColor : rgb(134,134,134);
+}
+
+#ArticleFeedCommentsTextView {
+    PlaceholderColor : rgb(134,134,134);
+    textColor : #000000;
+}
+
+#ShareMobCardContentLabel {
+    TextLineNumber : 0;
+    NormalTextColor : #ffffff;
+    HighlightedTextColor : #ffffff;
+    BackgroundColor : clear;
+    TextFont : 24 bold;
+    TextAlignment : Center;
+}
+
+#SplashViewController {
+/*  顺序是 Top Left Bottom Right ，-1表示不约束  */
+    closeBtnMargin : 20 -1 -1 10;
+    closeBtnFont : 12;
+    closeBtnBg : #ffffff99;
+    closeBtnWidth : 36;
+    closeBtnTitleColor : #000000;
+/*  0表示不切割，做缩放；非0都是切割  */
+    clipImage : 0;
+/*  1表示整个屏幕都能点击，0表示不能点击，0.5表示下半屏幕可以点击  */
+    tapPercent : 0.5;
+}

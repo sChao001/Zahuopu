@@ -1,0 +1,49 @@
+//
+//  PrefixHeader.pch
+//  MAX+
+//
+//  Created by tarena on 16/8/9.
+//  Copyright © 2016年 tarena. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#import <YYKit.h>
+#import <MBProgressHUD.h>
+#import <BlocksKit.h>
+#import <BlocksKit+UIKit.h>
+#define MAS_SHORTHAND_GLOBALS
+#import <Masonry.h>
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <AFNetworking.h>
+#import <UIKit+AFNetworking.h>
+#import <MJRefresh.h>
+#import <CocoaLumberjack.h>
+#import <iCarousel.h>
+#ifdef DEBUG
+static const NSUInteger ddLogLevel = DDLogLevelAll;
+#else
+static const int ddLogLevel = DDLogLevelError;
+#endif
+
+
+
+
+#import "UIScrollView+refresh.h"
+#import "RequestPath.h"
+#import "NSString+str_url.h"
+#import "NSObject+Parse.h"
+#import "Consst.h"
+
+
+
+
+
+
+
+
+
+#endif /* PrefixHeader_pch */
